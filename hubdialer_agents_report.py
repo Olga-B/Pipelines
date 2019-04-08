@@ -5,7 +5,7 @@ login_url = 'https://www.hubdialer.com/hq/'
 root_url = 'https://www.hubdialer.com/hq/index.php/campaignhq/reports_cli/'
 agent_report_url = "{root_url}agent_report/0/{start_date}/{end_date}/{start_time}/{end_time}/0/0/{client_id}"
 auth_data = { 'email': 'olga@jbforilgov.com',
-              'password': 'newuser18!',
+              'password': '*****',
               'login_attempt': '1' }
 yesterday = date.today() - timedelta(1)
 url_params = { 'root_url': root_url,
