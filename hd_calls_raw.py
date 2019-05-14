@@ -4,7 +4,7 @@ login_url = 'https://www.hubdialer.com/hq/'
 root_url = 'https://www.hubdialer.com/hq/index.php/campaignhq/reports_cli/'
 call_attempts_url ="{root_url}households_report/call_attempts/{campaign_id}/{start_date}/{end_date}/{start_time}/{end_time}"
 auth_data = { 'email': 'olga@jbforilgov.com',
-              'password': 'newuser18!',
+              'password': '*****',
               'login_attempt': '1' }
 url_params = { 'root_url': root_url,
  'campaign_id': '14558',
