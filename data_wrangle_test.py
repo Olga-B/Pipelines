@@ -1,4 +1,4 @@
-/* Prompt:
+''' Prompt:
 A member has executed several contact programs in the state of Texas and has asked us to help them analyze the data across them all. They have sent us two csv files, one for each county that they worked in. 
 Before we can begin analyzing the data, we need to merge it and import it into our redshift database. 
 We notice upon initial inspection of the data that it is messy and not formatted correctly for importing.
@@ -12,7 +12,7 @@ Column names should be all lowercase
 Write a script that automatically converts the two csv files into a format that can be uploaded into our database, and merges the two files together into one dataset with one row per respondent. 
 We would like to automate the upload process, so rather than making your process specific to each file, write a script that could be used on future datasets that have similar formatting issues. 
 You can assume that the “unique_id” column appears only once and is not repeated between files. 
-*/
+'''
 
 import pandas as pd
 import glob
